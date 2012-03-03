@@ -1,0 +1,13 @@
+.changeBaby {
+	height: 70px;
+	vertical-alignment: middle;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #FDFDFD /*{c-bup-background-start}*/), to( #FF0000 /*{c-bup-background-end}*/))
+}
+
+.changeBaby .ui-btn-inner {
+	top: 15px;
+}
+
+.upcomingChangeBaby {
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #FDFDFD /*{c-bup-background-start}*/), to( #FF97CB /*{c-bup-background-end}*/))
+}
