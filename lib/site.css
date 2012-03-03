@@ -1,13 +1,17 @@
 div.phone
 {
-  background-color: #dccfcb;
-  width: 320px;
-  height: 480px;
+background-color: #dcdbd4;
+width: 320px;
+height: 480px;
 }
 
 div.tablet
 {
-  background-color: #dccfcb;
-  width: 768px;
-  height: 520px;
+background-color: #dcdbd4;
+width: 768px;
+height: 520px;
+}
+
+div.kid-name
+{
 }
