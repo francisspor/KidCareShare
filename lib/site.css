@@ -1,7 +1,13 @@
 div.phone
 {
   background-color: #dccfcb;
-  width: 324px;
+  width: 320px;
   height: 480px;
-  text-align: center;
+}
+
+div.tablet
+{
+  background-color: #dccfcb;
+  width: 768px;
+  height: 520px;
 }
