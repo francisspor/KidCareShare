@@ -6,10 +6,12 @@
 
     <script src="./lib/jquery-1.7.1.js" type="text/javascript"></script> 
     <script src="./lib/jquery.mobile-1.0.1.min.js" type="text/javascript"></script> 
-
     <link href="./lib/jquery.mobile-1.0.css" rel="stylesheet" type="text/css" />
-    <link href="./lib/site.css" rel="stylesheet" type="text/css" />
 
+    <script src="./lib/jquery.mobile.datebox.min.js" type="text/javascript"></script>
+    <link href="./lib/jquery.mobile.datebox.min.css" rel="stylesheet" type="text/css" />
+
+    <link href="./lib/site.css" rel="stylesheet" type="text/css" />
     <script src="./main.js" type="text/javascript"></script> 
 </head> 
 
@@ -25,10 +27,71 @@
     <div data-role="content">
       <div class="ui-grid-a"> 
         <div class="ui-block-a">
-          The Morning Parent View
+          <div class="phone">
+            <div data-role="content" data-position="fixed">
+              <div class="kid-name">
+                <select name="select-kid" id="select-choice-1" data-mini="true">
+                  <option value="abcd123">Esther</option>
+                  <option value="efgh456">Bobby</option>
+                </select>
+              </div>
+              <div>
+                <label for="sleep">I slept for:</label>
+                <input name="sleep" id="sleep" type="date" data-role="datebox" data-options='{"mode": "timebox"}' data-mini="true" />
+              </div>
+              <div class="ui-grid-a">
+                <label class="ui-block-a" for="breakfast">I ate breakfast at:</label>
+                <input class="ui-block-b" name="breakfast" id="breakfast" type="date" data-role="datebox" data-options='{"mode": "timebox"}' data-mini="true" />
+              </div>
+              <div class="ui-grid-a">
+                <label class="ui-block-a" for="feeling">I'm feeling</label>
+                <select class="ui-block-b" name="select-kid" id="select-choice-1" data-mini="true">
+                  <option value="abcd123">Happy</option>
+                  <option value="efgh456">Content</option>
+                  <option value="abcd123">Fussy</option>
+                  <option value="efgh456">Teething</option>
+                </select>
+              </div>
+              <div>
+                <label class="ui-block-a" for="bottles">Bottles</label>
+                <select class="ui-block-b" name="select-kid" id="select-choice-1" data-mini="true">
+                  <option value="abcd123">3</option>
+                  <option value="efgh456">2</option>
+                  <option value="abcd123">1</option>
+                </select>
+                <a href="page2.html" data-role="button" data-icon="plus" data-inline="true"  data-mini="true">Add Food</a>
+              </div>
+              
+            </div> <!-- content -->
+          </div> <!-- phone -->
         </div>
         <div class="ui-block-b">
-          Show a phone view
+          <div class="phone">
+            <div data-role="content" data-position="fixed">
+              <div class="kid-name">
+                <select name="select-kid" id="select-choice-1" data-mini="true">
+                  <option value="abcd123">Esther</option>
+                  <option value="efgh456">Bobby</option>
+                </select>
+              </div>
+              <div>
+                <label for="sleep">Sleep:</label>
+                <input type="text" name="name" id="basic" value="" data-mini="true" />
+              </div>
+              <div>
+                <label for="sleep">Food:</label>
+                <input type="text" name="name" id="basic" value="" data-mini="true" />
+              </div>
+              <div>
+                <label for="sleep">Medication:</label>
+                <input type="text" name="name" id="basic" value="" data-mini="true" />
+              </div>
+              <div>
+                <label for="general">General:</label>
+                <textarea name="textarea" id="textarea-a"></textarea>
+              </div>
+            </div> <!-- content -->
+          </div> <!-- phone -->
         </div>
       </div>
     </div>

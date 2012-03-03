@@ -11,3 +11,21 @@
 .upcomingChangeBaby {
 	background-image: -webkit-gradient(linear, left top, left bottom, from( #FDFDFD /*{c-bup-background-start}*/), to( #FF97CB /*{c-bup-background-end}*/))
 }
+
+div.phone
+{
+background-color: #dcdbd4;
+width: 320px;
+height: 480px;
+}
+
+div.tablet
+{
+background-color: #dcdbd4;
+width: 768px;
+height: 520px;
+}
+
+div.kid-name
+{
+}
