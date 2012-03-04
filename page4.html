@@ -23,7 +23,6 @@
     </div>
 
     <div data-role="content">
-      <div class="tablet">
         <div data-role="content" data-position="fixed">
           <div class="kid-name">
             <select name="select-kid" id="select-choice-1" data-mini="true">
@@ -57,8 +56,8 @@
               </div>
 
               <div class="ui-block-c">
-                <b><label for="feeling">I'm feeling</label><b>
-                <select name="select-kid" id="select-choice-1" data-mini="true">
+                <b>I'm Feeling:</b><br>
+                <select name="select-kid" id="select-choice-1" data-mini="true" data-inline="true">
                   <option value="abcd123">Happy</option>
                   <option value="efgh456">Content</option>
                   <option value="abcd123">Fussy</option>
@@ -70,82 +69,71 @@
           <!-- top content div -->
 
           <hr>
-
-          <!-- diapers and feeding and sleeping -->
-          <div class="ui-grid-b">
+          
+          <div class="ui-grid-a">
             <div class="ui-block-a">
-              <h4>Meals</h4>
-              <div class="ui-grid-a kid-event">
-                <div class="ui-block-a">
-                  9:15 AM
-                </div>
-                <div class="ui-block-b">
-                  Bottle
-                </div>
-              </div>
-              <div class="ui-grid-a kid-event">
-                <div class="ui-block-a">
-                  11:50 AM
-                </div>
-                <div class="ui-block-b">
-                  Cereal
-                </div>
-              </div>
-              <a href="page4.html" data-role="button" data-icon="plus" data-inline="true"  data-mini="true">Eat</a>
+              <b>Medical Needs</b><br>
+              None
             </div>
             <div class="ui-block-b">
-              <h4>Diapers</h4>
-              <div class="ui-grid-a kid-event">
+              <b>Care Needs</b><br>
+              Esther likes to sleep with her teddy bear. If she's fussy she may need to be rocked gently for a few minutes.
+            </div>
+          </div>
+          
+          <hr>
+          <!-- day events -->
+          <div class="ui-grid-a">
+
+            <div class="ui-block-a">
+              <div class="ui-grid-a">
                 <div class="ui-block-a">
-                  9:10 AM
+                  <b>Recent Events</b><br>
+                  <div class="recent-activity">
+                    <img src="lib/images/diaper.png"/><span>9:10</span>
+                  </div>
+                  <div class="recent-activity">
+                    <img src="lib/images/bottle.png"/><span>9:15 Bottle</span>
+                  </div>
+                  <div class="recent-activity">
+                    <img src="lib/images/sleep.png"/><span>10:30 - 11:15</span>
+                  </div>
+                  <div class="recent-activity">
+                    <img src="lib/images/diaper.png"/><span>11:20 Blowout</span>
+                  </div>
+                  <div class="recent-activity">
+                    <img src="lib/images/bottle.png"/><span>11:50 Cereal</span>
+                  </div>
                 </div>
                 <div class="ui-block-b">
-                  &nbsp;
+                  <div class="new-event">
+                    <b>New Event</b><br>
+                    <a href="page4.html" data-role="button" data-mini="true" data-inline="true"><img src="lib/images/bottle.png" class="event-button" /></a>
+                    <a href="page4.html" data-role="button" data-mini="true" data-inline="true"><img src="lib/images/diaper.png" class="event-button"  /></a><br>
+                    <a href="page4.html" data-role="button" data-mini="true" data-inline="true"><img src="lib/images/sleep.png" class="event-button"  /></a>
+                    <a href="page4.html" data-role="button" data-mini="true" data-inline="true"><img src="lib/images/medicate.png" class="event-button"  /></a><br>
+                  </div>
                 </div>
               </div>
-              <div class="ui-grid-a">
-                <div class="ui-block-a kid-event">
-                  11:20 AM
-                </div>
-                <div class="ui-block-b kid-event">
-                  Blowout
-                </div>
-              </div>
-              <a href="page4.html" data-role="button" data-icon="plus" data-inline="true"  data-mini="true">Change</a>
             </div>
-            <div class="ui-block-c">
-              <h4>Naps</h4>
-              <div class="ui-grid-a kid-event">
-                <div class="ui-block-a">
-                  10:30 AM
-                </div>
-                <div class="ui-block-b kid-event">
-                  - 11:15 AM
-                </div>
+
+            <div class="ui-block-b">
+              <label for="textarea-a"><b>Notes:</b></label>
+              <textarea name="textarea" id="textarea-a">She's been talking a lot and really enjoyed tummy time
+              </textarea>
+              <br>
+              <div>
+                <b>Supplies Needed:</b><br>
+                <a href="page4.html" data-role="button" data-icon="plus" data-inline="true"  data-mini="true">Diapers</a>
+                <a href="page4.html" data-role="button" data-icon="plus" data-inline="true"  data-mini="true">Wipes</a>
+                <a href="page4.html" data-role="button" data-icon="plus" data-inline="true"  data-mini="true">Clothes</a>
               </div>
-              <a href="page4.html" data-role="button" data-icon="plus" data-inline="true"  data-mini="true">Sleep</a>
             </div>
-          </div>
-          <!-- end diapers and stuffs -->
 
-          <div>
-            <label for="textarea-a"><b>Notes:</b></label>
-            <textarea name="textarea" id="textarea-a">She's been talking a lot and really enjoyed tummy time
-            </textarea>
           </div>
-
-          
-          <div>
-            Supplies Needed:
-            <a href="page4.html" data-role="button" data-icon="plus" data-inline="true"  data-mini="true">Diapers</a>
-            <a href="page4.html" data-role="button" data-icon="plus" data-inline="true"  data-mini="true">Wipes</a>
-            <a href="page4.html" data-role="button" data-icon="plus" data-inline="true"  data-mini="true">Clothes</a>
-          </div>
-
 
         </div>
       </div>
-    </div>
 
     <div data-role="footer" data-position="fixed" class="ui-grid-a">
       <a href="page3.html" data-role="button" data-theme="a" class="ui-block-a">Previous</a>

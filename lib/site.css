@@ -83,3 +83,38 @@ div.kid-event
 font-size: 12pt;
 font-weight: bold;
 }
+
+div.recent-activity
+{
+padding: 2px 0px 2px 0px;
+}
+
+div.recent-activity > span
+{
+font-size: 13pt;
+vertical-align: middle;
+font-weight: bold;
+}
+
+div.recent-activity > img
+{
+height: 20px;
+width: 20px;
+padding: 0px 10px 0px 0px;
+vertical-align: middle;
+/*padding-top: 12px;
+position: relative;
+float: right;*/
+}
+
+h4.recent-activity
+{
+padding: 0px;
+border: 0px;
+}
+
+img.event-button
+{
+height: 30px;
+width: 30px;
+}
