@@ -118,3 +118,8 @@ img.event-button
 height: 30px;
 width: 30px;
 }
+
+div.parent-activity-feed > div.recent-activity
+{
+padding: 0px 0px 20px 0px;
+}

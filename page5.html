@@ -6,33 +6,102 @@
 
     <script src="./lib/jquery-1.7.1.js" type="text/javascript"></script> 
     <script src="./lib/jquery.mobile-1.0.1.min.js" type="text/javascript"></script> 
-
     <link href="./lib/jquery.mobile-1.0.css" rel="stylesheet" type="text/css" />
-    <link href="./lib/site.css" rel="stylesheet" type="text/css" />
 
+    <script src="./lib/jquery.mobile.datebox.min.js" type="text/javascript"></script>
+    <link href="./lib/jquery.mobile.datebox.min.css" rel="stylesheet" type="text/css" />
+
+    <link href="./lib/site.css" rel="stylesheet" type="text/css" />
     <script src="./main.js" type="text/javascript"></script> 
 </head> 
 
 
 <body>
 
-  <div data-role="page" id="page5">
+  <div data-role="page" id="page2">
 
     <div data-role="header">
       <h1>Kid Care Share</h1>
     </div>
 
     <div data-role="content">
-      <div class="tablet">
-        The Signout
+      <div class="ui-grid-a"> 
+        <div class="ui-block-a">
+          <div class="phone">
+            <div data-role="content" data-position="fixed">
+              <div class="kid-name">
+                <select name="select-kid" id="select-choice-1" data-mini="true">
+                  <option value="abcd123">Esther</option>
+                  <option value="efgh456">Bobby</option>
+                </select>
+              </div>
+
+              <div class="parent-activity-feed">
+                <h4>Today's Activities</h4>
+                <div class="recent-activity">
+                  <img src="lib/images/diaper.png"/><span>9:10</span>
+                </div>
+                <div class="recent-activity">
+                  <img src="lib/images/bottle.png"/><span>9:15 Bottle</span>
+                </div>
+                <div class="recent-activity">
+                  <img src="lib/images/sleep.png"/><span>10:30 - 11:15</span>
+                </div>
+                <div class="recent-activity">
+                  <img src="lib/images/diaper.png"/><span>11:20 Blowout</span>
+                </div>
+                <div class="recent-activity">
+                  <img src="lib/images/notification.png"/><span>11:25 Needs Diapers</span>
+                </div>
+                <div class="recent-activity">
+                  <img src="lib/images/notification.png"/><span>11:25 Needs Clothes</span>
+                </div>
+                <div class="recent-activity">
+                  <img src="lib/images/bottle.png"/><span>11:50 Cereal</span>
+                </div>
+                <div class="recent-activity">
+                  <img src="lib/images/information.png"/><span>Went from Fussy to Happy</span>
+                </div>
+              </div>
+              
+            </div> <!-- content -->
+          </div> <!-- phone -->
+        </div>
+        <div class="ui-block-b">
+          <div class="phone">
+            <div data-role="content" data-position="fixed">
+              <div class="kid-name">
+                <select name="select-kid" id="select-choice-1" data-mini="true">
+                  <option value="abcd123">Esther</option>
+                  <option value="efgh456">Bobby</option>
+                </select>
+              </div>
+              <div>
+                <label for="sleep">Sleep:</label>
+                <input type="text" name="name" id="basic" value="" data-mini="true" />
+              </div>
+              <div>
+                <label for="sleep">Food:</label>
+                <input type="text" name="name" id="basic" value="" data-mini="true" />
+              </div>
+              <div>
+                <label for="sleep">Medication:</label>
+                <input type="text" name="name" id="basic" value="" data-mini="true" />
+              </div>
+              <div>
+                <label for="general">General:</label>
+                <textarea name="textarea" id="textarea-a">Esther may be teething. Please use the frozen bomb pops if she starts crying and if that doesn't work then there's a homeopathic gum gel in the diaper bag.</textarea>
+              </div>
+            </div> <!-- content -->
+          </div> <!-- phone -->
+        </div>
       </div>
     </div>
-
+ 
     <div data-role="footer" data-position="fixed" class="ui-grid-a">
-      <a href="page4.html" data-role="button" data-theme="a" class="ui-block-b">Previous</a>
-      <div class="ui-block-a">&nbsp;</div>
+      <a href="index.html" data-role="button" data-theme="a" class="ui-block-a">Previous</a>
+      <a href="page3.html" data-role="button" data-theme="a" class="ui-block-b">Next</a>
     </div>
-
   </div>
 
 </body> 
