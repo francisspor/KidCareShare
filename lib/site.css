@@ -1,15 +1,36 @@
-.changeBaby {
+.urgentEvent {
 	height: 70px;
-	vertical-alignment: middle;
 	background-image: -webkit-gradient(linear, left top, left bottom, from( #FDFDFD /*{c-bup-background-start}*/), to( #FF0000 /*{c-bup-background-end}*/))
 }
 
-.changeBaby .ui-btn-inner {
-	top: 15px;
+.child {
+	text-align: left;
 }
 
-.upcomingChangeBaby {
-	background-image: -webkit-gradient(linear, left top, left bottom, from( #FDFDFD /*{c-bup-background-start}*/), to( #FF97CB /*{c-bup-background-end}*/))
+.child.name {
+	vertical-alignment: middle;
+	height: 50px;
+}
+
+.normalEvent .ui-btn-inner {
+	padding-left: 8px;
+	padding-top: 8px;
+}
+
+.ui-btn-inner img {
+	width: 50px;
+	height: 50px;
+}
+
+.upcomingEvent {
+	height: 70px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #FDFDFD /*{c-bup-background-start}*/), to( #FFFF00 /*{c-bup-background-end}*/))
+}
+
+.normalEvent {
+	height: 70px;
+	vertical-alignment: middle;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #FDFDFD /*{c-bup-background-start}*/), to( #00FF00 /*{c-bup-background-end}*/))
 }
 
 div.phone

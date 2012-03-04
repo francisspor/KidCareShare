@@ -11,6 +11,38 @@
     <link href="./lib/site.css" rel="stylesheet" type="text/css" />
 
     <script src="./main.js" type="text/javascript"></script> 
+	
+	
+	<script language="JavaScript" type="text/javascript">
+		<!-- Copyright 2003, Sandeep Gangadharan -->
+		<!-- For more free scripts go to http://www.sivamdesign.com/scripts/ -->
+		<!-- 
+
+		function sivamtime() {
+		  now=new Date();
+		  hour=now.getHours();
+		  min=now.getMinutes();
+		  sec=now.getSeconds();
+
+		if (min<=9) { min="0"+min; }
+		if (sec<=9) { sec="0"+sec; }
+		if (hour>12) { hour=hour-12; add="pm"; }
+		else { hour=hour; add="am"; }
+		if (hour==12) { add="pm"; }
+
+		time = ((hour<=9) ? "0"+hour : hour) + ":" + min + ":" + sec + " " + add;
+
+		if (document.getElementById) { document.getElementById('theTime').innerHTML = time; }
+		else if (document.layers) {
+		 document.layers.theTime.document.write(time);
+		 document.layers.theTime.document.close(); }
+
+		setTimeout("sivamtime()", 1000);
+		}
+		window.onload = sivamtime;
+
+		// -->
+</script>
 </head> 
 
 
@@ -21,31 +53,50 @@
     <div data-role="header">
       <h1>Kid Care Share</h1>
     </div>
-
     <div data-role="content">
-      <div class="ui-grid-a"> 
-        <div class="ui-block-a">
-			<ul data-role="listview" data-inset="true" data-theme="a">
-				<li class="changeBaby"><a href="#">Lucy S.  - Diaper Change Due: NOW</a></li>
-				<li class="upcomingChangeBaby"><a href="#">Esther W. - Diaper Change Due: 15 Minutes</a></li>
-				<li><a href="#">John H.</a></li>
-				<li><a href="#">Russell C.</a></li>
-				<li><a href="#">Jenny Z.</a></li>
-			</ul>
-        </div>
-        <div class="ui-block-b">
-          Should this be full screen so we can show landscape tablet view?
-        </div>
-      </div>
+      <div class="tablet"> 
+		<div class="ui-grid-a">
+		<div class="ui-block-a">
+			<div data-role="button" class="child urgentEvent">
+				<img src="lib/images/Lucy.png"/>Lucy S.
+			</div>
+			<div data-role="button" class="child upcomingEvent">
+				<img src="lib/images/Esther.png"/>Esther W.
+			</div>
+			<div class="ui-grid-d">
+				<div class="ui-block-a">
+					<div data-role="button" class="child normalEvent">
+						<img src="lib/images/Webster.png"/>
+					</div>
+				</div>
+				<div class="ui-block-b">
+					<div data-role="button" class="child normalEvent">
+						<img src="lib/images/Blossum.png"/>
+					</div>
+				</div>
+				<div class="ui-block-c">
+					<div data-role="button" class="child normalEvent">
+						<img src="lib/images/Webster.png"/>
+					</div>
+				</div>
+				<div class="ui-block-d">
+					<div data-role="button" class="child normalEvent">
+						<img src="lib/images/Webster.png"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ui-block-b">
+			<span id="theTime" style="position:absolute; left:10; top:10; font-family: arial; font-size: 9pt"/>
+		</div>
     </div>
 
+  </div>
     <div data-role="footer" data-position="fixed" class="ui-grid-a">
       <a href="page2.html" data-role="button" data-theme="a" class="ui-block-a">Previous</a>
       <a href="page4.html" data-role="button" data-theme="a" class="ui-block-b">Next</a>
     </div>
-
-  </div>
-
+	</div>
 </body> 
 
 </html>
