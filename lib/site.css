@@ -130,3 +130,15 @@ border: 1px solid #999999;
 padding: 5px;
 background: white;
 }
+
+ul > li
+{
+font-size: 18pt;
+padding-top: 20px;
+}
+
+hr
+{
+margin-top: 30px;
+margin-bottom: 30px;
+}
