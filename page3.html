@@ -30,14 +30,14 @@
 		else { hour=hour; add="am"; }
 		if (hour==12) { add="pm"; }
 
-		time = ((hour<=9) ? "0"+hour : hour) + ":" + min + ":" + sec + " " + add;
+		time = hour + ":" + min + " " + add;
 
 		if (document.getElementById) { document.getElementById('theTime').innerHTML = time; }
 		else if (document.layers) {
 		 document.layers.theTime.document.write(time);
 		 document.layers.theTime.document.close(); }
 
-		setTimeout("sivamtime()", 1000);
+		setTimeout("sivamtime()", 60000);
 		}
 		window.onload = sivamtime;
 
@@ -58,45 +58,60 @@
 		<div class="ui-grid-a">
 		<div class="ui-block-a">
 			<div data-role="button" class="child urgentEvent">
-				<img src="lib/images/Lucy.png"/>Lucy S.
+				<img class="childImage" src="lib/images/Lucy.png"/><div class="name">Lucy S.</div><img class="eventIcon" src="lib/images/diaper.png"/>
 			</div>
 			<div data-role="button" class="child upcomingEvent">
-				<img src="lib/images/Esther.png"/>Esther W.
+				<img class="childImage"  src="lib/images/Esther.png"/><div class="name">Esther W.</div><img class="eventIcon" src="lib/images/bottle.png"/>
+			</div>
+			<div data-role="button" class="child upcomingEvent">
+				<img  class="childImage" src="lib/images/Coleman.png"/><div class="name">Gary C.</div><img class="eventIcon" src="lib/images/diaper.png"/><img class="eventIcon" src="lib/images/bottle.png"/>
 			</div>
 			<div class="ui-grid-d">
 				<div class="ui-block-a">
 					<div data-role="button" class="child normalEvent">
-						<img src="lib/images/Webster.png"/>
+						<img  class="childImage" src="lib/images/Webster.png"/>
 					</div>
 				</div>
 				<div class="ui-block-b">
 					<div data-role="button" class="child normalEvent">
-						<img src="lib/images/Blossum.png"/>
+						<img  class="childImage" src="lib/images/Blossum.png"/>
 					</div>
 				</div>
 				<div class="ui-block-c">
 					<div data-role="button" class="child normalEvent">
-						<img src="lib/images/Webster.png"/>
+						<img  class="childImage" src="lib/images/Clarissa.png"/>
 					</div>
 				</div>
 				<div class="ui-block-d">
 					<div data-role="button" class="child normalEvent">
-						<img src="lib/images/Webster.png"/>
+						<img  class="childImage" src="lib/images/Brian.png"/>
+					</div>
+				</div>
+			</div>
+			<div class="ui-grid-d">
+				<div class="ui-block-a">
+					<div data-role="button" class="child sleepingEvent">
+						<img  class="childImage" src="lib/images/Kirk.png"/>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="ui-block-b">
-			<span id="theTime" style="position:absolute; left:10; top:10; font-family: arial; font-size: 9pt"/>
+			<h2><span id="theTime" /></h2>
+				<div data-role="button">
+					Classroom Events
+				</div>
+				<div data-role="button">
+					Request Assistance
+				</div>
 		</div>
     </div>
-
+  </div>
   </div>
     <div data-role="footer" data-position="fixed" class="ui-grid-a">
       <a href="page2.html" data-role="button" data-theme="a" class="ui-block-a">Previous</a>
       <a href="page4.html" data-role="button" data-theme="a" class="ui-block-b">Next</a>
     </div>
-	</div>
 </body> 
 
 </html>
