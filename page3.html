@@ -12,37 +12,6 @@
 
     <script src="./main.js" type="text/javascript"></script> 
 	
-	
-	<script language="JavaScript" type="text/javascript">
-		<!-- Copyright 2003, Sandeep Gangadharan -->
-		<!-- For more free scripts go to http://www.sivamdesign.com/scripts/ -->
-		<!-- 
-
-		function sivamtime() {
-		  now=new Date();
-		  hour=now.getHours();
-		  min=now.getMinutes();
-		  sec=now.getSeconds();
-
-		if (min<=9) { min="0"+min; }
-		if (sec<=9) { sec="0"+sec; }
-		if (hour>12) { hour=hour-12; add="pm"; }
-		else { hour=hour; add="am"; }
-		if (hour==12) { add="pm"; }
-
-		time = hour + ":" + min + " " + add;
-
-		if (document.getElementById) { document.getElementById('theTime').innerHTML = time; }
-		else if (document.layers) {
-		 document.layers.theTime.document.write(time);
-		 document.layers.theTime.document.close(); }
-
-		setTimeout("sivamtime()", 60000);
-		}
-		window.onload = sivamtime;
-
-		// -->
-</script>
 </head> 
 
 
@@ -97,7 +66,7 @@
 			</div>
 		</div>
 		<div class="ui-block-b">
-			<h2><span id="theTime" /></h2>
+			<h2><span id="theTime" />03:45 PM</h2>
 				<div data-role="button">
 					Classroom Events
 				</div>
@@ -108,6 +77,11 @@
     </div>
   <!--</div>-->
   </div>
+
+    <div data-role="footer" data-position="fixed" class="ui-grid-a">
+      <a href="page2.html" data-role="button" data-theme="a" class="ui-block-a">Previous</a>
+      <a href="page4.html" data-role="button" data-theme="a" class="ui-block-b">Next</a>
+    </div>
 </body> 
 
 </html>
