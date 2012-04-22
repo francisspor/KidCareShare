@@ -1,46 +1,27 @@
 * Little Stories
 
-** Mission Statement
+** Overview
 
-Little Stories is your child's online collaborative biography. It allows parents
-and caregivers to tell the story for children too young to tell it themselves.
+Little Stories provides you access to special content about your
+child's life at daycare.
 
 ** Overview
 
-Parents and caregivers upload content related to the child to
-our secure servers.  Content includes things like:
-- Photos
-- Videos
-- Diary Entries
-- Sound Bytes
-- Stories
-- First moments
+Participating caregivers enroll parents into the program.  During the
+sign up process parents set their preferred security and media sharing
+preferences.  Based on their settings, parents are provided with
+content like:
+- Weekly activity digests
+- Quips/comments by and about the child
+- Photos of activities and artwork
+- Videos of plays
+- Etc.
 
-Little Stories uses the information to  build a chronological tale of the first few years of a
-child's life. Parent's can view, print, and share media as well as
-purchase gifts like calendars, photos, etc.
-
-** How does it work for parents?
-
-Parents sign up and provide pertinent information about their child
-including birthdate, gender etc.  Little Stories will send periodic
-emails around important milestones to remind parents to upload
-content.  Using uploaded media little stories will create a timeline
-of the first years of your childs life.
-
-** How does it work for participating caregivers?
-
-Caregivers enroll in the Little Stories system and commit to uploading
-interesting media about the child.  It is believed that, like class
-pictures, this content will be quite valuable.  As part of the service, caregivers
-are reimbursed for the time the invest in the program.  In addition, an Ipad
-application will be developed to make media uploading simple and easy.
-
-All media uploaded by caregivers will be tagged with the names of the
-children referenced.  If a child is referenced that is not in the
-Little Stories program, or has a parent who has indicated that they do
-not want their child shown in group photos, the media will be
-immediately deleted.
+Some of the most interesting content about a child is their
+interactions with other children.  In order to legally provide this
+content parents must agree to allow other parents access to group
+photos containing their child.  If a parent finds a particular photo
+they would not like shared, they can flag it.
 
 ** Security
 
