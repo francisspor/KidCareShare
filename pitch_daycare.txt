@@ -23,6 +23,8 @@ content for participating parents.  Content may includes things like:
 * Quips/comments by and about the child
 * Photos of activities and artwork
 * Videos of plays
+* Achievements and rewards
+* News and events
 * Etc.
 
 All content uploaded by caregivers will be tagged with the names of the
